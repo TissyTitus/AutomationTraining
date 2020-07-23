@@ -5,6 +5,7 @@ import java.io.IOException;
 public class SampleMaven {
 public static void main(String args[])throws IOException
 {
+	System.out.println("My commit to github");
 	SampleMaven1 ob=new SampleMaven1();
 	String a=ob.readData(0,0);
 	System.out.println("values of a is"+a);
