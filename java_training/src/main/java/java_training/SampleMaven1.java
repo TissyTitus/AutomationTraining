@@ -12,9 +12,9 @@ public class SampleMaven1 {
 public XSSFSheet sh;
 public SampleMaven1() throws IOException
 {
-	FileInputStream f= new FileInputStream("C:\\Users\\Tissy\\Documents\\Obscura");
+	FileInputStream f= new FileInputStream("C:\\Users\\Tissy\\Documents\\Obscura\\Sampleexcel.xlsx");
     XSSFWorkbook w=new XSSFWorkbook(f);
-    sh=w.getSheet("tissy1");
+    sh=w.getSheet("sheet1");
 }
 public String readData(int i,int j)
 {
